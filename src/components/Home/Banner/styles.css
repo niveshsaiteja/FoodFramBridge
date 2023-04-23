@@ -6,6 +6,14 @@ header {
 }
 .header-img {
   /* No additional styles applied */
+    
+    margin-top: 183px;
+}
+
+@media screen and (max-width: 735px) {
+  .header-img{
+    margin-top: 10px;
+  }
 }
 
 .header-content {

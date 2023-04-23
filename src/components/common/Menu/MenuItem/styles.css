@@ -1,8 +1,8 @@
 .item {
-  width: 150px;
+  width: 170px;
   padding: 0 0.8rem 0.8rem 0.8rem;
   background-color: #fff;
-  border-radius: 30px;
+  border-radius: 6px;
   text-align: center;
   flex-direction: column;
   display: flex;
