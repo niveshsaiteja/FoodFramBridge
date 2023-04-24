@@ -16,6 +16,7 @@ const Home = () => {
     <div>
       <Banner handleScrollMenu={handleScrollMenu} />
       <Menu list={menuItemsData} ref={menuRef} />
+      <Menu list={menuItemsData} ref={menuRef} />
       <Footer />
       <ButtonCartCount />
     </div>
