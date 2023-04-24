@@ -119,5 +119,12 @@ export const menuItemsData = [
     price: 24,
     img: '/images/cherry.png',
   },
+  {
+    id: 18,
+    name: 'Tomato',
+    info: 'spicey with garlic and then deep fried to crispy perfection',
+    price: 24,
+    img: '/images/cherry.png',
+  }
 
 ];
