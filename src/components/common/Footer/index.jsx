@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../Logo';
+//import Logo from '../Logo';
 import './styles.css';
 import fb from "../../common/Logo/logo2.png";
 import twitter from "../../common/Logo/logo2.png";
@@ -8,7 +8,7 @@ import insta from "../../common/Logo/logo2.png";
 
 
 
-const Footer = () => {
+/*const Footer = () => {
   return (
     <footer>
       <p>
@@ -17,10 +17,10 @@ const Footer = () => {
       <Logo />
     </footer>
   );
-};
+ }; */
 
 
-const Footer1 = () =>{
+const Footer = () =>{
   return (
     <div className='footer'>
       <div className='inner-section'>
@@ -73,10 +73,10 @@ const Footer1 = () =>{
           <div className='inner-section-link-div'>
             <h4>Coming soon on</h4>
             <div className='socialmedia'>
-              <p><img src={fb} alt="" /></p>
-              <p><img src={twitter} alt="" /></p>
-              <p><img src={linkedin} alt="" /></p>
-              <p><img src={insta} alt="" /></p>
+              <p><img className='logo-img' src={fb} alt="" /></p>
+              <p><img className='logo-img' src={twitter} alt="" /></p>
+              <p><img className='logo-img' src={linkedin} alt="" /></p>
+              <p><img className='logo-img' src={insta} alt="" /></p>
             </div>
 
           </div>
@@ -88,4 +88,4 @@ const Footer1 = () =>{
   )
 }
 //export default Footer;
-export default Footer1;
+export default Footer;

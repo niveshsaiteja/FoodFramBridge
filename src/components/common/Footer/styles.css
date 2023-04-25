@@ -18,3 +18,67 @@ footer p {
     font-size: 0.8rem;
   }
 }
+
+.inner-section-links{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+
+.logo-img{
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 42px;
+}
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+}
+.footer{
+ background-color: white;
+ margin-top: 50px;
+  padding: 20px;
+}
+.inner-section-link-div{
+  color: white;
+    padding: 40px;
+    padding-top: 0px;
+    width: 100%;
+}
+hr{
+background-color: black;
+padding: 1px;
+}
+
+.inner-section-link-div h4{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: underline;
+}
+.inner-section-link-div h4:hover{
+   color:rgb(255, 33, 33);
+   transition: 0.3s;
+}
+
+.inner-section-link-div a p {
+  text-decoration: none;
+    color: rgb(72, 72, 72);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.inner-section-link-div a p:hover{
+  color: white;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.inner-section-link-div a{
+  text-decoration: none;
+}
